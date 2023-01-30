@@ -1,18 +1,23 @@
-body
-{
-    background-color: olive;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+header{
+	width: 100vw;
+	background-color: #000000;
+	box-shadow: 10px 15px 20px;
 }
 h1
 {
-	font-family: 'Style Script', cursive;
+	font-family: cursive;
 	font-size: 70px;
 	color: gold;
 	margin: auto;
-    margin-top: 2%;
 	text-align: center;
-	/*display: none;*/
+	padding: 0.7%;
 }
-
 div img
 {
 	box-shadow: 10px 20px 15px ;
@@ -23,13 +28,11 @@ div img
 #container
 {
 	position: relative;
-	border: 7px solid rgba(77, 38, 2, 0.801);
+	border: 7px solid #000000;
 	border-radius: 50%;
 	box-shadow: 10px 15px 20px;
 	height: 30vw;
 	width: 30vw;
-/*	height: 440px;
-	width: 440px;*/
 	background: url(res/clock0.png) no-repeat ;
 	background-size: 100% ;
 	margin: auto;
@@ -47,7 +50,6 @@ div img
 	height: 26%;
 	top: 24.3%;
     left: 48.79%;
-	/*display:  none;*/
 }
 #minutes
 {
@@ -59,18 +61,16 @@ div img
 	top: 20%;
 	left: 48.89%;
 	opacity: 0.8;
-	/*display: none;*/
 }
 #seconds
 {
 	position: absolute;
-	background: gold;
+	background: rgb(255, 238, 0);
 	border-radius: 55px;
 	width: 0.9%;
 	height: 40%;
 	top: 10%;
 	left: 49.3%;
-	/*display: none;*/
 }
 #dot
 {
@@ -81,12 +81,14 @@ div img
 	height: 7%;
 	top: 46%;
 	left: 46.3%;
-	/*display: none;*/
 }
 footer{
     position: fixed;
     bottom: 0;
     width: 100%; 
-    background-color:  rgba(77, 38, 2, 0.801);
+    background-color:#000000;
+}
+a{
+	text-decoration: none;
 }
 

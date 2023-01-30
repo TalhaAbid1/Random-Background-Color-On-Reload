@@ -1,5 +1,13 @@
-Simple Analog & Responsive Clock by ABID 
+# Random Background Color Generator 
 
-Click This Url To View Results => https://talhaabid1.github.io/Responsive-Analog-Clock-ABID/
+* ### **16 Million** Random background Colors.
 
-Thanks For Visiting My Profile.
+* ### Responsive Design.
+
+* ### Analogue Clock.
+
+A WebPage Provides More than 16,000,000 Background color, That Switches everytime time When Page Reloads
+
+Simple Analog & Responsive Clock by ABID
+
+Thanks For ❤.

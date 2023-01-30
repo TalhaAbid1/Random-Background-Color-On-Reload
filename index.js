@@ -20,3 +20,4 @@ setInterval(()=>{
 	seconds.style.transform = `rotate(${sRotation}deg)`;
 
 },1000);
+setBg();
